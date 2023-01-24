@@ -1,0 +1,90 @@
+body{
+    /* background-image: url(https://wallpaperaccess.com/full/1869517.jpg); */
+    background-image: url(https://wallpapers.com/images/featured/green-arrow-7fxabozek6nvsry9.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#searchHero{
+    display: block;
+    width: 53%;
+    height: 3rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: black;
+    padding-left: 2%;
+    background-color: whitesmoke;
+}
+#main-heading{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background-color:coral;
+    padding: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.image-size{
+    width: 70px;
+    height: 70px;
+    margin-left: 2rem;
+    /* background-size: cover; */
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border: 2px solid black;
+    overflow: scroll;
+    height: 60vh;
+    width: 50%;
+    margin: 0 auto;
+    background-color: white;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+ul li{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    width: 6rem;
+    outline: none;
+    border: none;
+    background-color: brown;
+    color: white;
+}
+#delFav{
+    color: red;
+    font-size: 25px;
+}
+#delFav:hover{
+    cursor:pointer;
+}
+#addFav:hover{
+    cursor:pointer;
+}
+#addFav{
+    font-size: 25px;
+    color: lightgray;
+}
+.search-item a{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
